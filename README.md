@@ -1,15 +1,21 @@
+# Meetup nginx 08/2014
 
-0) Install nginx
-	./nginx/install.sh
-1)  Add this lines in /etc/hosts:
-		127.0.0.1  www.perl.com
-		127.0.0.1  www.bash.com
-3) Start perl servers
-	./perl/server.pl 8082
+
+ * Install nginx: ```./nginx/install.sh ```
+ * Add this lines in /etc/hosts: 
+ 	```
+    127.0.0.1  www.perl.com
+    127.0.0.1  www.bash.com
+ ```
+ * Start perl servers: 
+ 	```
+    ./perl/server.pl 8082
 	./perl/server.pl 8083
- 	./bash/server.sh 8081
-4) Start nginx
-	./nginx/start.sh
-5) goto www.perl.com:8080/perl
+ ```
+ * Start bash server: ```./bash/server.sh 8081 ```
+ * Start nginx: ```./nginx/start.sh ```
 
-Slides: http://www.slideshare.net/mszuchman/meet-up-nginx-082014
+ Goto http://www.perl.com:8080/perl
+
+ Slides: http://www.slideshare.net/mszuchman/meet-up-nginx-082014
+
