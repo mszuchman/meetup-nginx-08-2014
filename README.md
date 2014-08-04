@@ -1,2 +1,1 @@
-meetup-nginx-08-2014
-====================
+http://www.slideshare.net/mszuchman/meet-up-nginx-082014
